@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300;1,400&display=swap');
+
+
+
+/* header styles starts */
+.header {
+    padding: 20px 15px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.header .logo a h3{
+    width: 170px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    color: #1F1F1F;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+.header .hamburger-btn{
+    width: 40px;
+    height: 40px;
+    background-color:#736147;
+    box-shadow: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.4s ease;
+    border-radius: 70%;
+    position: fixed;
+    top: 5%;
+    left: 95%;
+    transition: all 1s ease;
+}
+.header .hamburger-btn:hover{
+    box-shadow: 0 0 5px;
+}
+.header .hamburger-btn span{
+    display: block;
+    width: 16px;
+    height: 2px;
+    background-color: #000;
+    position: relative;
+}
+.header .hamburger-btn span:before,
+.header .hamburger-btn span:after{
+    position: absolute;
+    content: " ";
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+.header .hamburger-btn span:before{
+    top: -6px;
+}
+.header .hamburger-btn span:after{
+    top: 6px;
+}
