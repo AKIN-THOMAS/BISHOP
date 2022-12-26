@@ -18,7 +18,7 @@ const Nav = () => {
                         <li><Link to='/contact' spy={true} smooth={true} offset={-100} duration={500} delay={1000} className='link-item'>Contact me</Link></li>
                     </ul>
                 </div>
-                <p className="copyright-text">&copy; Abimbola-Made</p>
+                <p className="copyright-text"> &copy; 2022 Abimbola-Made</p>
             </nav>
         </body>
     );
