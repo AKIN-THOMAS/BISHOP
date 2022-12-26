@@ -20,7 +20,9 @@ const Header = () => {
                     <div className="container">
                         <div className="row justified-content-between">
                             <div className="logo">
+                                <a href="/">
                                 <h3>Abimbola-Made</h3>
+                                </a>
                             </div>
                             <Link to="/nav">
                                 <div class="hamburger-btn">

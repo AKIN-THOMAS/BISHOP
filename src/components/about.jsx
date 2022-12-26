@@ -48,33 +48,39 @@ const About = () =>{
                 <span className="tab-item" data-target=".education" >Education</span>
                 </div>
             </div>
-            <div className="row">
-                <div className="skills tab-content" id="skills">
-                <div className="row">
-                    <div className="skill-item">
-                        <p>HTML</p>
-                    </div>
-                    <div className="skill-item">
-                        <p>CSS</p>
-                    </div>
-                    <div className="skill-item" >
-                        <p>Bootstrap</p>
-                    </div>
-                    <div className="skill-item" >
-                        <p>JavaScript</p>
-                    </div>
-                    <div className="skill-item" >
-                        <p>React</p>
-                    </div>
-                    <div className="skill-item" >
-                        <p>Solidity</p>
-                    </div>
-                    
-                    {/* <div class="text">
-                    <p>*Note that as a result of improvement, this skills will be updated regularly</p>
-                    </div> */}
-                </div>
-                </div>
+            <div className="row bars">
+                <ul className="skills tab-content" id="skills">
+                    <strong className="skill-item">
+                        HTML
+                    </strong>
+                    <strong className="skill-item">
+                        CSS
+                    </strong>
+                    <strong className="skill-item">
+                        JavaScript
+                    </strong>
+                    <strong className="skill-item" >
+                        Bootstrap
+                    </strong>
+                    <strong className="skill-item" >
+                        NodeJs (EJS)
+                    </strong>
+                    <strong className="skill-item" >
+                        ReactJs
+                    </strong>
+                    <strong className="skill-item">
+                        GrapeJs
+                    </strong>
+                    <strong className="skill-item" >
+                        ReactNative
+                    </strong>
+                    <strong className="skill-item" >
+                        Git
+                    </strong>
+                    <strong className="skill-item" >
+                        Solidity
+                    </strong>
+                </ul>
             </div>
             
             <div className="row">
@@ -93,18 +99,6 @@ const About = () =>{
                         </div>
                         </div>
                         
-                        {/* <div class="timeline-item">
-                            <div class="timeline-item-inner">
-                                <i class="bi bi-briefcase"></i>
-                                <span>Oct 2021 - Present</span>
-                                <h3>Personal Assitant, Chairman GP.</h3>
-                                <h4>Growth Path</h4>
-                                <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae esse inventore voluptatum ipsum quasi dolor corrupti, alias libero accusamus. Soluta.
-                                </p>
-                            </div>
-                        </div> */}
-                        
                         <div className="timeline-item">
                         <div className="timeline-item-inner">
                             <i className="bi bi-briefcase"></i>
@@ -113,7 +107,7 @@ const About = () =>{
                             <h4>HNG Zuri Internship</h4>
                             <p>
                                 Worked on some projects,
-                                Check the Portfolio page or githib to view
+                                Check the Portfolio page or github to view
                             </p>
                         </div>
                         </div>
@@ -121,7 +115,7 @@ const About = () =>{
                         <div className="timeline-item">
                         <div className="timeline-item-inner" >
                             <i className="bi bi-briefcase"></i>
-                            <span>Oc, 2022</span>
+                            <span>Oct, 2022</span>
                             <h3>Web3 Dev</h3>
                             <h4>Polygon Bootcamp </h4>
                             <p>
@@ -137,6 +131,7 @@ const About = () =>{
             <div className="row">
                 <div className="education tab-content" id="education">
                 <div className="row">
+                    
                     <div className="timeline">
                     <div className="row">
                         <div className="timeline-item">
@@ -150,41 +145,6 @@ const About = () =>{
                         </div>
                         </div>
                     
-                        {/* <div class="timeline-item">
-                            <div class="timeline-item-inner">
-                                <i class="bi bi-mortarboard"></i>
-                                <span>Sep, 2014 - Nov,2020</span>
-                                <h3>Student</h3>
-                                <h4>Baptist High School, Abuja</h4>
-                                <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae esse inventore voluptatum ipsum quasi dolor corrupti, alias libero accusamus. Soluta.
-                                </p>
-                            </div>
-                        </div> */}
-                        
-                        {/* <div class="timeline-item">
-                            <div class="timeline-item-inner">
-                                <i class="bi bi-mortarboard"></i>
-                                <span>2012 - 2014</span>
-                                <h3>Pupil</h3>
-                                <h4>Redeemer TEAP Int'l. School</h4>
-                                <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ut corporis animi sit quisquam sequi, accusantium temporibus at reiciendis ratione.
-                                </p>
-                            </div>
-                        </div> */}
-                        
-                        {/* <div class="timeline-item">
-                            <div class="timeline-item-inner" >
-                                <i class="bi bi-mortarboard"></i>
-                                <span>Oneday - 2012</span>
-                                <h3>Pupil</h3>
-                                <h4> Handmaid Nursery School, Saint Alusious Primary School</h4>
-                                <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, quaerat aspernatur quis illo unde at distinctio non. Possimus, labore quod.
-                                </p>
-                            </div>
-                        </div> */}
                     </div>
                     </div>
                 </div>
