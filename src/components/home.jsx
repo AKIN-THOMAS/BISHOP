@@ -63,7 +63,7 @@ const Home = () =>{
                 <div className="home-text">
                 <p>Hello&#128578;</p>
                 <h1>I'm Akin-Thomas Bishop Abimbola...</h1>
-                <h2>Blockchain Developer | FrontEnd Developer | Web3 Developer</h2>
+                <h2> FrontEnd Developer | Web3 Developer</h2>
                 {/* <a href="/about" class="mee link-item"> More About me</a> */}
                 <Link className='mee' to= "/about">More about me</Link>
                 </div>

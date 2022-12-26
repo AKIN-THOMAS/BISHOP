@@ -1,6 +1,8 @@
 import bishop2 from '../photos/13.jpg'
+import resume from '../photos/Bishop_AkinThomas_Resume.pdf'
 import Header from './header';
 import { Link } from 'react-router-dom';
+import { BsInstagram, BsWhatsapp, BsTwitter, BsGithub, BsLinkedin } from 'react-icons/bs';
 import './styles.css';
 
 const About = () =>{
@@ -21,10 +23,11 @@ const About = () =>{
                     </div>
                     
                     <div className="social-links">
-                        <a href="https://www.instagram.com/_abim.bola_/"><i class="bi bi-instagram"></i></a>
-                        <a href="https://twitter.com/Bishopakint"><i class="bi bi-twitter"></i></a>
-                        <a href="https://www.linkedin.com/in/bishop-akin-thomas-b32477232/"><i class="bi bi-linkedin"></i></a>
-                        <a href="https://github.com/AKIN-THOMAS"><i class="bi bi-github"></i></a>
+                    <a href="https://www.instagram.com/_abim.bola_/"><BsInstagram/></a>
+                        <a href="https://twitter.com/Bishopakint"> <BsTwitter /></a>
+                        <a href="https://api.whatsapp.com/send?phone=%2B2347012991154&text&app_absent=0"><BsWhatsapp/></a>
+                        <a href="https://www.linkedin.com/in/bishop-akin-thomas-b32477232/"> <BsLinkedin /></a>
+                        <a href="https://github.com/AKIN-THOMAS"> <BsGithub /></a>
                     </div>
                     
                 </div>
@@ -32,19 +35,24 @@ const About = () =>{
                 <p>
                     <span>
                     Hi!! My name is Akin-Thomas Bishop Abimbola a Front-End
-                    Developer and a raising Blockchain Engineer.
+                    Developer and a rising Blockchain Engineer  , 
                     </span>
+                      with over two years of expertise who knows how to build applications with React, 
+                    and Node, among other technologies. I appreciate 
+                    resolving issues, increasing customer satisfaction, 
+                    and working with other developers to add 
+                    value, and I'm always willing to learn more.
                 </p>
                 <div style={{marginTop: 30}}>
-                    <a href="resume/Bishop_AkinThomas_Resume.PDF" class="mee">Download CV</a>
+                    <a href={resume} target= '_blank' class="mee" rel='noreferrer'>Download CV</a>
                     <Link to='/contact' className="mee link-item">Hire me</Link>
                 </div>
                 </div>
             </div>
             <div class="row">
                 <div className="about-tabs">
-                <span className="tab-item  active" data-target=".skill" >Skill</span>
-                <span className="tab-item" data-target=".experience" >Experience</span>
+                <span className="tab-item  " data-target=".skill" >Skill</span>
+                <span className="tab-item active" data-target=".experience" >Experience</span>
                 <span className="tab-item" data-target=".education" >Education</span>
                 </div>
             </div>
@@ -63,7 +71,7 @@ const About = () =>{
                         Bootstrap
                     </strong>
                     <strong className="skill-item" >
-                        NodeJs (EJS)
+                        EJS
                     </strong>
                     <strong className="skill-item" >
                         ReactJs

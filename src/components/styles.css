@@ -1053,3 +1053,6 @@ img{
 .service-item-img img{
     border-radius: 5px;
 }
+#portfolio{
+    overflow-x: hidden;
+}

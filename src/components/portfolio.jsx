@@ -10,7 +10,7 @@ import webblog from '../photos/web-blog.png';
 
 const Portfolio = () =>{
     return(
-        <div>
+        <div id='portfolio'>
             <Header />
             <div className="service-header">
                 Latest works
