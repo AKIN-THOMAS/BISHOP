@@ -914,7 +914,9 @@ img{
     outline: none;
     box-shadow: 0 0 8px;
     background-color: #594B37;
+    cursor: pointer;
 }
+
 .socials{
     text-align: center;
     margin: 10px;
@@ -939,43 +941,6 @@ img{
 
 
 
-/* card section */
-/* .card-item{
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: auto;
-    width: 100%;
-    width: calc((100% / 3) - 30px);
-}
-.card-inner{
-    width: 100%;
-    display: flex;
-    flex: 0 0 100%;
-    flex-wrap: wrap;
-    margin: 26px;
-    align-items: center;
-    justify-content: center;
-    gap: 12px;
-}
-.services-items{
-    width: 392px;
-    height: 272px;
-    background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
-    border: 2px solid red; 
-    border-radius: 15px;
-    width: calc((100% / 3) - 30px);
-    margin: 0 15px 30px;
-}
-.services-items img{
-    box-sizing: border-box;
-    justify-content: center;
-    margin: 15px;
-    width: 360px;
-    border: 1px solid #D7D7D7;
-    border-radius: 15px;
-} */
 
 .card-item{
     display: flex;
@@ -1053,6 +1018,6 @@ img{
 .service-item-img img{
     border-radius: 5px;
 }
-#portfolio{
+/* #portfolio{
     overflow-x: hidden;
-}
+} */

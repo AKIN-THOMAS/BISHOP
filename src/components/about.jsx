@@ -34,11 +34,10 @@ const About = () =>{
                 <div className="about-info">
                 <p>
                     <span>
-                    Hi!! My name is Akin-Thomas Bishop Abimbola a Front-End
-                    Developer and a rising Blockchain Engineer  , 
-                    </span>
-                      with over two years of expertise who knows how to build applications with React, 
-                    and Node, among other technologies. I appreciate 
+                    Hi!! My name is Akin-Thomas Bishop Abimbola, a Front-End
+                    Developer and a rising Blockchain Engineer        
+                    </span> <br /> With over two years of expertise who knows how to build applications with React, 
+                     among other technologies. I appreciate 
                     resolving issues, increasing customer satisfaction, 
                     and working with other developers to add 
                     value, and I'm always willing to learn more.
@@ -101,7 +100,7 @@ const About = () =>{
                             <i className="bi bi-briefcase"></i>
                             <span>May, 2022 - Aug, 2022</span>
                             <h3>Full-Stack Developer (Front-End)</h3>
-                            <h4>Zuri Traning (Full-Time)</h4>
+                            <h4>Zuri Training (Full-Time)</h4>
                             <p>
                             </p>
                         </div>
