@@ -78,9 +78,9 @@ const About = () =>{
                     <strong className="skill-item">
                         GrapeJs
                     </strong>
-                    <strong className="skill-item" >
+                    {/* <strong className="skill-item" >
                         ReactNative
-                    </strong>
+                    </strong> */}
                     <strong className="skill-item" >
                         Git
                     </strong>
