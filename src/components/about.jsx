@@ -1,5 +1,5 @@
 import bishop2 from '../photos/13.jpg'
-import resume from '../photos/Bishop_AkinThomas_Resume.pdf'
+import resume from '../photos/Bishop_AkinThomas_Resume.pdf';
 import Header from './header';
 import { Link } from 'react-router-dom';
 import { BsInstagram, BsWhatsapp, BsTwitter, BsGithub, BsLinkedin } from 'react-icons/bs';

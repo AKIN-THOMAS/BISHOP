@@ -199,6 +199,23 @@ img{
     border: 2px solid #594B37;
     color: #594B37;
 }
+.me{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 22px;
+    background-color: #594B37;
+    border-radius: 20px;
+    text-align: center;
+    color: #f0f0f0;
+    font-size: 16px;
+    transition: all .5s ease;
+    border: 2px solid #594B37;
+}
+.me:hover{
+    background: transparent;
+    /* border: 2px solid #594B37; */
+    color: #594B37;
+}
 
 
 

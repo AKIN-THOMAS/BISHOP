@@ -23,7 +23,7 @@ const Portfolio = () =>{
                             image={Choir} 
                             title={'Choir Website'} 
                             viewlink={`https://choir-lmu.onrender.com/`} 
-                            githublink={`https://github.com/Praisebakare/Tabernacle-of-Psalms/tree/main`}
+                            githublink={`https://github.com/Praisebakare/Landmark-University-Choir`}
                             />
                             <Card  
                             image={abimbola} 

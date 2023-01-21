@@ -19,12 +19,12 @@ const Card = ({image, title, viewlink, githublink}) => {
                 <div className="service-item-btn">
                     <div className='inside'>
                         <div>
-                            <a href={viewlink}>
+                            <a href={viewlink} target="_blank" rel='noreferrer'>
                                 <button className="view">View Project</button>
                             </a>
                         </div>
                         <div>
-                            <a href={githublink}>
+                            <a href={githublink} target="_blank" rel='noreferrer'>
                                 <button className="git">View Github</button>
                             </a>
                         </div> 
