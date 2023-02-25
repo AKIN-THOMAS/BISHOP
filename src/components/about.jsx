@@ -75,12 +75,12 @@ const About = () =>{
                     <strong className="skill-item" >
                         ReactJs
                     </strong>
+                    <strong className="skill-item" >
+                        Chakra UI
+                    </strong>
                     <strong className="skill-item">
                         GrapeJs
                     </strong>
-                    {/* <strong className="skill-item" >
-                        ReactNative
-                    </strong> */}
                     <strong className="skill-item" >
                         Git
                     </strong>
