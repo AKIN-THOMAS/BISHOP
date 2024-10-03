@@ -1,23 +1,21 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/home";
-import Nav from "../src/components/nav";
-import About from "./pages/about";
-import Contact from "./pages/contact";
-import Portfolio from "./pages/portfolio";
+import React from 'react';
+import Header from './components/Header';
+import Main from './components/Main';
+import Footer from './components/Footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'aos/dist/aos.css';
+import './assets/css/main.css';  // assuming you are keeping your custom CSS in assets folder
 
-const App = () => {
+
+function App() {
   return (
-    // <h1>Bishop is a good boy</h1>
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/nav" element={<Nav />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-      </Routes>
-    </Router>
+    <div>
+      <Header />
+      <Main />
+      {/* <PortfolioPage/> */}
+      <Footer />
+    </div>
   );
-};
+}
+
 export default App;
