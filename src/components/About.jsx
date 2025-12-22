@@ -1,7 +1,7 @@
 // src/components/AboutSection.jsx
 import React from "react";
-import profileImg from "../assets/profileme.jpg"; 
-// import resume from 
+import profileImg from "../assets/Bishop.jpeg";
+// import resume from
 
 const AboutSection = () => {
   return (
@@ -30,18 +30,40 @@ const AboutSection = () => {
                   <strong>Phone:</strong> <span>07012991154</span>
                 </p>
               </div>
-              <a
-                href="https://drive.google.com/file/d/17pAoF_nC9QHZ7dZWIAe98iCM3VSBCIOe/view?usp=sharing"
-                className="btn"
+              <div
+                className="resume-buttons"
                 style={{
-                  backgroundColor: 'var(--accent-color)', 
-                  color: 'var(--contrast-color)',         
-                }} 
-                target="_blank"
-                rel="noopener noreferrer"
+                  display: "flex",
+                  gap: "20px",
+                  justifyContent: "center",
+                  marginTop: "20px",
+                }}
               >
-                View Resume
-              </a>
+                <a
+                  href="https://drive.google.com/file/d/1rcdnjfIuqXXIFs635zOrol1WKjjimjYi/view?usp=sharing"
+                  className="btn"
+                  style={{
+                    backgroundColor: "var(--accent-color)",
+                    color: "var(--contrast-color)",
+                  }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Frontend Resume
+                </a>
+                <a
+                  href="https://drive.google.com/file/d/16MOA5srjWuVCWaTAITl6HnMeeO_xy21N/view?usp=sharing"
+                  className="btn"
+                  style={{
+                    backgroundColor: "var(--accent-color)",
+                    color: "var(--contrast-color)",
+                  }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Web3 Resume
+                </a>
+              </div>
             </div>
 
             <div className="skills-content skills-animation">

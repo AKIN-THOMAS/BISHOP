@@ -46,6 +46,12 @@ const projects = [
     hostedLink: "https://thebishopgallery.vercel.app/",
     image: nft,
   },
+  {
+    title: "AI Chatbot for Customer Service",
+    githubLink: "https://github.com/AKIN-THOMAS",
+    hostedLink: "#",
+    image: movie,
+  },
   //   {
   //     title: 'Project Six',
   //     description: 'Description of Project Six and its main features.',
