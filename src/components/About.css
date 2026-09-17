@@ -1,0 +1,20 @@
+.about-section {
+  padding-bottom: var(--section-pad-y);
+}
+
+.about-container {
+  max-width: 840px;
+}
+
+.about-quote {
+  font-size: 22px;
+  line-height: 1.6;
+  font-family: var(--font-display);
+  margin-top: 16px;
+}
+
+@media (max-width: 428px) {
+  .about-quote {
+    font-size: 19px;
+  }
+}

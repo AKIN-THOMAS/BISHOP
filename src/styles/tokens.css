@@ -1,0 +1,43 @@
+:root {
+  /* Surfaces */
+  --bg: #14120e;
+  --bg-raised: #1c1913;
+
+  /* Text */
+  --text: #f5f1e6;
+  --text-dim: #a69c8a;
+
+  /* Lines */
+  --line: rgba(245, 241, 230, 0.11);
+  --line-soft: rgba(245, 241, 230, 0.06);
+
+  /* Accent: brass/amber primary, a muted-terracotta shade on hover/active only */
+  --accent: #d6a24c;
+  --accent-hover: #c98a5b;
+  --accent-2: #6fa893;
+
+  /* Type */
+  --font-display: 'Instrument Serif', Georgia, serif;
+  --font-body: 'Space Grotesk', system-ui, sans-serif;
+
+  /* Layout */
+  --content-max: 1120px;
+  --hero-max: 1280px;
+  --page-pad-x: 64px;
+  --section-pad-y: 120px;
+  --radius-card: 4px;
+  --radius-button: 2px;
+}
+
+@media (max-width: 1024px) {
+  :root {
+    --section-pad-y: 88px;
+  }
+}
+
+@media (max-width: 428px) {
+  :root {
+    --page-pad-x: 20px;
+    --section-pad-y: 72px;
+  }
+}

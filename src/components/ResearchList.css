@@ -1,0 +1,53 @@
+.research-heading {
+  font-size: 38px;
+  max-width: 640px;
+  margin-top: 16px;
+  margin-bottom: 56px;
+}
+
+.research-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.research-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 24px;
+  align-items: start;
+}
+
+.research-row-first {
+  padding-bottom: 28px;
+}
+
+.research-row-last {
+  padding-top: 28px;
+}
+
+.research-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.research-meta {
+  font-size: 14px;
+  color: var(--text-dim);
+  margin-top: 6px;
+}
+
+.research-year {
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+  .research-row {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .research-year {
+    white-space: normal;
+  }
+}
