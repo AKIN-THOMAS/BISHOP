@@ -1,0 +1,33 @@
+.impact-strip-grid {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 32px;
+}
+
+.impact-value {
+  font-family: var(--font-display);
+  font-size: 38px;
+}
+
+.tone-accent {
+  color: var(--accent);
+}
+
+.tone-accent-2 {
+  color: var(--accent-2);
+}
+
+.impact-label {
+  font-size: 13px;
+  color: var(--text-dim);
+  margin-top: 6px;
+}
+
+@media (max-width: 428px) {
+  .impact-strip-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 28px 20px;
+  }
+}

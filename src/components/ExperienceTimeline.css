@@ -1,0 +1,41 @@
+.experience-heading {
+  font-size: 38px;
+  margin-top: 16px;
+  margin-bottom: 56px;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline-row {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 32px;
+  padding: 28px 0;
+}
+
+.timeline-dates {
+  font-size: 13px;
+  color: var(--text-dim);
+}
+
+.timeline-role {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.timeline-outcome {
+  font-size: 14px;
+  color: var(--text-dim);
+  margin-top: 6px;
+  line-height: 1.6;
+}
+
+@media (max-width: 640px) {
+  .timeline-row {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+}

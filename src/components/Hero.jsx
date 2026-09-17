@@ -1,37 +1,26 @@
-// src/components/HeroSection.jsx
-import React, { useEffect } from 'react';
-import Typed from 'typed.js'; // Import Typed.js
-import 'aos/dist/aos.css'; // Import AOS CSS
-import bishop from "../assets/BISHOP AKIN-THOMAS.jpg"; // Ensure this path is correct
+import { hero, contactInfo } from '../data/content';
+import NodeGraph from './NodeGraph';
+import './Hero.css';
 
-const HeroSection = () => {
-  useEffect(() => {
-    const options = {
-      strings: ["Frontend Developer", "Blockchain Developer"], // Add your strings here
-      typeSpeed: 50,
-      backSpeed: 50,
-      loop: true,
-    };
-
-    const typed = new Typed(".typed", options); // Initialize Typed.js on the ".typed" element
-
-    return () => {
-      typed.destroy(); // Clean up the instance on component unmount
-    };
-  }, []); // Empty dependency array means this effect runs once when the component mounts
-
+export default function Hero() {
   return (
-    <section id="hero" className="hero section dark-background">
-      <img src={bishop} alt="Hero" data-aos="fade-in" />
-
-      <div className="container d-flex flex-column align-items-center justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
-        <h2>THE.BISHOP!</h2>
-        <p>
-          <span className="typed"></span>
-        </p>
+    <header id="top" className="hero">
+      <div className="hero-copy">
+        <p className="eyebrow hero-eyebrow">{hero.eyebrow}</p>
+        <h1 className="hero-headline">{hero.headline}</h1>
+        <p className="hero-subhead">{hero.subhead}</p>
+        <div className="hero-ctas">
+          <a href="#work" className="btn btn-fill">
+            View selected work
+          </a>
+          <a href={`mailto:${contactInfo.email}`} className="btn btn-line">
+            {contactInfo.email}
+          </a>
+        </div>
       </div>
-    </section>
+      <div className="hero-graphic" aria-hidden="true">
+        <NodeGraph />
+      </div>
+    </header>
   );
-};
-
-export default HeroSection;
+}
